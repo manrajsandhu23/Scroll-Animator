@@ -4,11 +4,12 @@ body {
   box-sizing: border-box;
   background-color: crimson;
   color: aliceblue;
-  font-family: "Poppins";
+  font-family: "Poppins", "arial";
 }
 h1 span {
   color: yellow;
 }
+
 .screen {
   margin: 0;
   display: grid;

@@ -7,6 +7,5 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 });
-
 const screens = document.querySelectorAll(".screen");
 screens.forEach((screen) => observer.observe(screen));
