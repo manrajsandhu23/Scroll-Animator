@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: crimson;
+  color: aliceblue;
+  font-family: "Poppins";
+}
+h1 span {
+  color: yellow;
+}
+.screen {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 105vh;
+}
+.screen img {
+  border: 0px transparent;
+  border-radius: 23px;
+  margin: 20px 0px;
+}
+.screen h1 {
+  font-size: 64px;
+  margin: 20px 0px;
+}
+.screen p {
+  padding: 0px 10%;
+  font-size: 24px;
+}
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  filter: blur(5px);
+}
+
+.show {
+  transform: translateX(0%);
+  transition: all 1.2s;
+  filter: blur(0);
+  opacity: 1;
+}
