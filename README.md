@@ -1,6 +1,6 @@
 # Scroll Animator
 
-Checkout the Scroll Animation
+Checkout the [Scroll Animation](https://scroll-animator.vercel.app/ "Link")
 
 ## 🔗 Links
 
